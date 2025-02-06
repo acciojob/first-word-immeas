@@ -1,7 +1,7 @@
 function firstWord(s) {
   // your code here
-	s = s.trim();
-    let spaceIndex = s.indexOf(' ');
+	str = s.trim();
+    let spaceIndex = str.indexOf(' ');
 
     // If no space is found, return the whole string
     return spaceIndex === -1 ? str : str.substring(0, spaceIndex);
